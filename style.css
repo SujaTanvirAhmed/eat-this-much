@@ -73,7 +73,7 @@ header .flex-child:last-child {
     width: 200px;
 }
 header .flex-child:nth-child(2) {
-    width: 550px;
+    width: 555px;
 }
 header nav ul li {
     display: inline-block;
@@ -83,8 +83,8 @@ header nav ul li a {
     text-decoration: none;
     text-transform: capitalize;
     color: whitesmoke;
-    border: 1px solid transparent;
-    border-radius: 3px;
+    border: 3px solid transparent;
+    border-radius: 5px;
     padding: 5px 10px;
     transition: ease-in-out;
     transition-delay: 150ms;
@@ -144,6 +144,11 @@ h3 {
     width: 100%;
     height: auto;
 }
+.section-one {
+    background: url(images/bg-3.jpg) lightgray;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .section-one .flex-parent {
     justify-content: space-between;
 }
@@ -155,12 +160,22 @@ h3 {
     border-radius: 50%;
 }
 .section-two {
-    background: url(images/shapes/Group\ 8448.png) white;
+    background: url(images/shape-3.png) white;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .section {
     padding: 40px 0;
+}
+.section-three {
+    background: url(images/bg-5.jpg) white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-four {
+    background: url(images/bg-3.jpg) white;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .section-two .flex-parent {
     justify-content: space-around;
@@ -219,6 +234,7 @@ footer {
     background-color: #222;
     color: white;
     padding: 50px 0;
+    margin-top: -80px;
 }
 footer h2, footer p {
     text-align: center;
@@ -232,8 +248,9 @@ footer h2 span {
     color: tomato;
 }
 footer p.intro {
-    width: 450px;
+    width: 550px;
     margin: 0 auto 30px;
+    border-bottom: 2px solid white;
 }
 footer .flex-parent {
     justify-content: space-between;
