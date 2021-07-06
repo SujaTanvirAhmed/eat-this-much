@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: lightgray;
+}
+p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+header {
+    background-color: #333;
+    color: whitesmoke;
+    /* padding: 30px 0; */
+}
+header a {
+    text-decoration: none;
+}
+header .logo-container {
+    position: relative;
+}
+header .logo-container h3 {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1em;
+}
+header .logo-container .logo {
+    position: absolute;
+    width: 50px;
+    height: auto;
+    top: -28px;
+    left: 32px;
+}
+header .btn-signup {
+    background-color: tomato;
+    color: whitesmoke;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 8px;
+    transition: ease-in-out;
+    transition-duration: 250ms;
+    transition-delay: 150ms;
+}
+header .btn-signup:hover {
+    box-shadow: 1px 1px 5px 2px white;
+    color: white;
+}
+header .txt-signin {
+    font-size: 1em;
+}
+header .link-signin {
+    text-transform: capitalize;
+    color: chartreuse;
+    text-decoration: none;
+    transition: ease-in-out;
+    transition-delay: 150ms;
+    transition-duration: 250ms;
+}
+header .link-signin:hover {
+    text-decoration: underline;
+}
+header .flex-parent {
+    justify-content: space-between;
+}
+header .flex-child:first-child,
+header .flex-child:last-child {
+    width: 200px;
+}
+header .flex-child:nth-child(2) {
+    width: 550px;
+}
+header nav ul li {
+    display: inline-block;
+}
+header nav ul li a {
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: whitesmoke;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding: 5px 10px;
+    transition: ease-in-out;
+    transition-delay: 150ms;
+    transition-duration: 250ms;
+}
+header nav ul li a:hover {
+    border-color: gray;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 30px;
+}
+.title {
+    text-transform: capitalize;
+}
+.title span {
+    color: tomato;
+}
+.link-btn {
+    text-decoration: none;
+    background-image: linear-gradient(white, lightseagreen, tomato);
+    padding: 20px 40px;
+    border-radius: 25px;
+    font-size: 1.1em;
+    text-transform: capitalize;
+    color: white;
+    display: inline-block;
+    margin-top: 30px;
+    transition: ease-in-out;
+    transition-delay: 150ms;
+    transition-duration: 250ms;
+}
+.link-btn:hover {
+    box-shadow: 3px 3px 10px 3px white;
+    background-image: linear-gradient(tomato, lightseagreen, white);;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.flex-parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-child {
+    width: 550px;
+    border: 1px solid transparent;
+}
+.flex-child img {
+    width: 100%;
+    height: auto;
+}
+.section-one .flex-parent {
+    justify-content: space-between;
+}
+.section-one .image-holder {
+    background-image: linear-gradient(white, tomato, lightseagreen);
+    border-radius: 45% 30% 45% 30%;
+}
+.section-one .image-holder img {
+    border-radius: 50%;
+}
+.section-two {
+    background: url(images/shapes/Group\ 8448.png) white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section {
+    padding: 40px 0;
+}
+.section-two .flex-parent {
+    justify-content: space-around;
+}
+.section-two .flex-child {
+    width: 500px;
+}
+.section-two .image-holder {
+    background-image: linear-gradient(tomato, lightseagreen, silver);
+    border-radius: 60% 60% 30% 30%;
+}
+.section-two .image-holder img {
+    border-radius: 50%;
+}
+.section-two .flex-child img {
+    width: 100%;
+}
+.section-three .flex-parent{
+    justify-content: space-between;
+}
+.section-three .flex-child {
+    width: 330px;
+    padding: 15px 15px 30px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 7px 7px 5px 10px darkslategray;
+}
+.section-three .flex-child img {
+    border-radius: 25px;
+}
+.sub-title {
+    margin: 15px auto;
+    text-align: center;
+}
+.recipe-intro {
+    width: 500px;
+    margin: 30px auto;
+    text-align: center;
+}
+.section-four .flex-parent {
+    justify-content: space-around;
+    background-color: white;
+    padding: 30px 0;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px 5px darkgray;
+}
+.section-four .flex-child {
+    width: 320px;
+    padding: 15px;
+}
+.section-four .flex-child h1,
+.section-four .flex-child p {
+    margin-left: 100px;
+}
+footer {
+    background-color: #222;
+    color: white;
+    padding: 50px 0;
+}
+footer h2, footer p {
+    text-align: center;
+}
+footer h2 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: lightgray;
+}
+footer h2 span {
+    color: tomato;
+}
+footer p.intro {
+    width: 450px;
+    margin: 0 auto 30px;
+}
+footer .flex-parent {
+    justify-content: space-between;
+}
+footer .flex-child {
+    width: 270px;
+}
+footer .flex-child h4 {
+    color: darkgray;
+}
+footer .flex-child a {
+    position: relative;
+    display: block;
+    text-align: left;
+    line-height: 28px;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: ease-in-out;
+    transition-delay: 150ms;
+    transition-duration: 250ms;
+}
+footer .flex-child a:hover {
+    text-decoration: underline;
+}
+footer .flex-child img {
+    width: 26px;
+    height: auto;
+    position: absolute;
+    top: 2px;
+    left: -30px;
+}
+footer p.developer {
+    margin-top: 20px;
+}
+footer p.developer span {
+    color: dodgerblue;
+    font-style: italic;
+}
+#dribble {
+    width: 20px;
+    left: -25px;
+    top: 5px;
+}
+#instagram {
+    width: 30px;
+    top: 0;
+}
+#company-name {
+    margin-left: -150px;
+    margin-top: 10px;
+}
